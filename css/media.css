@@ -1,0 +1,333 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.item-action {
+		font-size: 15px;
+	}
+	.action-description {
+		padding-top: 30px;
+	}
+	.card-info__name {
+		width: 180px;
+	}
+	.card-wrapper__col_second {
+		padding-left: 25px;
+	}
+	.link-main_sertificats {
+		margin-top: 53px;
+		margin-bottom: 45px;
+	}
+	.modal-wrap .card-info__name {
+		width: 180px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.descr-title {
+		padding-top: 20px;
+	}
+	.wrap-actions {
+		margin: 0;
+		margin-top: 30px;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.card-action {
+		width: 46%;
+		margin: 0 10px;
+		margin-bottom: 180px;
+	}
+	.card-wrapper__col {
+		width: 50%;
+	}
+	.link-main_sertificats {
+		margin-top: 16px;
+		margin-bottom: 20px;
+	}
+	.card-mintitle {
+		margin-top: 15px;
+	}
+	.card-wrapper__col {
+		padding-left: 0;
+		padding-bottom: 30px;
+	}
+	.card-wrapper__col_big,
+	.card-wrapper__col_second:nth-child(2) {
+		padding-left: 35px;
+	}
+	.hidden_tablet {
+		display: none;
+	}
+	.card-buttons {
+		display: block;
+	}
+	.card-buttons .button-wrapper {
+		display: inline-block;
+	}
+	.card-buttons form {
+		margin-top: 30px;
+		margin-left: 0;
+	}
+	.card-buttons form input:not(.wpcf7-submit) {
+		width: 213px;
+	}
+	.card-buttons form .button-wrapper:before,
+	.card-buttons form .wpcf7-submit {
+		width: 180px;
+	}
+	.card-text__title {
+		margin-top: 20px;
+	}
+	.modal-wrap  .card-buttons .button-wrapper {
+		margin-left: 0;
+		margin-top: 20px;
+	}
+	.modal-wrap .card-buttons .product__button {
+		width: 200px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.item-action {
+		margin-top: 30px;
+		width: 20%;
+	}
+	.bottom-action {
+		margin-top: 30px;
+	}
+	.item-action__number {
+		font-size: 23px;
+		height: 44px;
+	}
+	.section-action .title-middle {
+		padding-top: 30px;
+	}
+	.wrap-actions {
+		display: block;
+	}
+	.card-action {
+		width: 375px;
+		max-width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 200px;
+	}
+	.item-action:last-child {
+		width: 40%;
+	}
+	.card-wrapper__col {
+		width: 100%;
+	}
+	.card-wrapper__col_big, .card-wrapper__col_second:nth-child(2) {
+		padding-left: 0;
+	}
+	.card-mintitle {
+		margin-top: 0;
+	}
+	.card-info__name {
+		width: 215px;
+	}
+	.title-card {
+		font-size: 21px;
+	}
+	.modal-wrap .card-buttons {
+		margin-top: 0;
+	}
+	.modal-wrap {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.modal-wrap .card-info__name {
+		width: 245px;
+	}
+	.modal-wrap .card-wrapper__col:last-child {
+		padding-bottom: 0;
+	}
+}
+@media only screen and (max-width : 576px) {
+	.item-action {
+		font-size: 13px;
+		line-height: 20px;
+	}
+	.descr-title {
+		font-size: 14px;
+	}
+	.bottom-action img {
+		margin-right: 10px;
+	}
+	.bottom-action {
+		font-size: 13px;
+		line-height: 21px;
+	}
+	.title-middle {
+		font-size: 24px;
+	}
+	.title-middle + .descr-title {
+		padding-top: 15px;
+	}
+	.action-description {
+		padding-top: 20px;
+		font-size: 14px;
+	}
+	.item-action:last-child {
+		width: 40%;
+	}
+	.slider-card .slick-prev {
+		left: -15px;
+	}
+	.slider-card .slick-next {
+		right: -15px;
+	}
+	.card-delivery {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.card-text {
+		padding: 20px;
+	}
+	.slider-card__image {
+		height: 235px;
+	}
+	.modal-wrap .card-buttons {
+		text-align: center;
+	}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.item-action {
+		width: 33%;
+	}
+	.item-action:last-child {
+		width: 66%;
+	}
+	.bottom-action {
+		display: block;
+	}
+	.bottom-action img {
+		margin: 0;
+		margin-bottom: 15px;
+	}
+	.card-action {
+		padding-left: 20px;
+		font-size: 14px;
+		line-height: 21px;
+		padding-bottom: 85px;
+		margin-bottom: 165px;
+	}
+	.action-description {
+		padding-top: 0;
+	}
+	.card-buttons form {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.card-buttons form input:not(.wpcf7-submit) {
+		width: 240px;
+	}
+	.card-buttons form .button-wrapper:before, .card-buttons form .wpcf7-submit {
+		width: 240px;
+	}
+	.card-buttons form .button-wrapper:before,
+	.card-buttons form .wpcf7-submit {
+		margin-left: 0;
+	}
+	.card-buttons form .button-wrapper {
+		margin-top: 20px;
+	}
+	.card-buttons form .button-wrapper:before {
+		bottom: -6px;
+	}
+	.card-text__title {
+		padding-left: 0;
+		padding-right: 0;
+		width: 100%;
+		text-align: center;
+		padding-bottom: 0;
+	}
+	.card-buttons {
+		text-align: center;
+	}
+	.card-buttons .product__button {
+		width: 240px;
+	}
+	.card-delivery {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.card-price {
+		font-size: 25px;
+	}
+	.modal-wrap .slider-card-for__image {
+		height: 260px;
+	}
+	.slider-card-nav__image {
+		height: 75px;
+	}
+	.modal-wrap {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.modal-wrap .card-info__name {
+		width: 180px;
+	}
+	.modal-wrap .card-info {
+		font-size: 13px;
+		white-space: nowrap;
+	}
+	.modal-wrap .card-price-wrap .card-price {
+		margin-right: 20px;
+	}
+	.modal-wrap .list-payments {
+    padding-right: 0;
+}
+.modal-wrap .card-wrapper__col:first-child {
+	padding-bottom: 15px;
+}
+.modal-wrap .share-block {
+    margin-top: 22px;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.show_tablet {
+		display: none !important;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+@media (min-width: 1600px) {
+	.container {
+		max-width: 1170px;
+	}
+}
