@@ -215,7 +215,7 @@
 		font-size: 14px;
 		line-height: 21px;
 		padding-bottom: 85px;
-		margin-bottom: 165px;
+		margin-bottom: 155px;
 	}
 	.action-description {
 		padding-top: 0;
@@ -289,6 +289,14 @@
 }
 .modal-wrap .share-block {
     margin-top: 22px;
+}
+.card-action__image {
+	left: 0;
+}
+.card-action__image img {
+	width: 290px;
+	margin: 0 auto;
+	display: block;
 }
 }
 
